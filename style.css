@@ -1,0 +1,147 @@
+/* styles.css */
+
+/* Reset de marges i padding */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0px;
+    padding: 0;
+    background-color: #4db01c !important;
+}
+
+/* Estils per a la navbar */
+nav {
+    background-color: #b41414;
+    padding: 15px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #ffff00 !important;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    color: #ffff00 !important;
+}
+
+nav ul li {
+    margin: 0 20px;
+    color: #ffff00 !important;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #ffff00 !important;
+    font-weight: bold;
+}
+
+nav ul li a:hover {
+    color: #ffff00 !important;
+}
+
+/* Estils per al contenidor principal */
+.container {
+    max-width: auto;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:#d11717;
+    border-radius: 8px;
+}
+
+.container-1 {
+    max-width: auto;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:#e0ec3d;
+    border-radius: 8px;
+}
+
+.container-2 {
+    max-width: auto;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:#45b5d1;
+    border-radius: 8px;
+}
+.container-3 {
+    max-width: auto;
+    margin: 10px;
+    padding: 20px;
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color:#0f7f22;
+    border-radius: 8px;
+}
+
+/* Estils per a les files i columnes */
+.row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.col {
+    flex: 1;
+    min-width: 300px;
+    margin-top: 10px;
+    padding: 5px;
+    background-color: #d11717;
+    border-radius: 5px;
+    color: #ffff00;
+}
+
+.card {
+    margin-top: 30px;
+    padding: 20px;
+    margin-left: 15px;
+    margin-right: 15px;
+    background-color: #d11717;
+}
+
+
+/* Estils per a títols i paràgrafs */
+h1 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h5 {
+    color: #d11414;
+}
+
+p {
+    color: #000000;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: justify;
+}
+
+
+
+/* Estils dels butons */
+.boto-peronalitza-1{
+    background-color: rgb(222, 16, 29) !important;
+    color: rgb(46, 187, 242) !important;
+}
+
+.boto-peronalitza-2{
+    background-color: rgb(51, 158, 25) !important;
+    color: rgb(222, 16, 29) !important;
+}
+
+.boto-peronalitza-3{
+    background-color: rgb(46, 187, 242) !important;
+    color: rgb(230, 205, 44) !important;
+}
+
+.boto-peronalitza-4{
+    background-color: rgb(230, 205, 44) !important;
+    color: rgb(56, 142, 35) !important;
+}
